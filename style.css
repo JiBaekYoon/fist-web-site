@@ -31,12 +31,19 @@ ol{
 #grid #article{
     padding-left: 25px;
 }
-.image {
+#image {
     width: 40%;
-    height: 90px; 
+    height: 90px; width: 200px; text-align: center; 
 	
 }
-.text{
-    float:left; width: 110px; margin: 5px; border: 1px solid black;
-    text-align: center;
+.item{
+    width:700px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+    font-size: 20px;
 }
